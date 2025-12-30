@@ -1,0 +1,15 @@
+[package]
+name = "token-transfer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+borsh="1.2.1"
+borsh-derive="1.2.1"
+solana-program="1.17.7"
+spl-token="3.5.0"
+
+[dev-dependencies]
+solana-program-test="1.17.7"
+solana-sdk="1.17.7"
+tokio = { version = "1", features = ["test-util"] }
